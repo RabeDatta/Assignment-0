@@ -1,6 +1,9 @@
 function greetFriend(name) {
-  // Insert code here;
+  return (`Hello, ${name}!`);           // using template  
 }
 
 // Do not edit this line;
 module.exports = greetFriend;
+
+
+console.log(greetFriend("Rob"));
